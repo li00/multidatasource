@@ -1,6 +1,6 @@
-package p.lzf.quickexcel.mapper.user;
+package p.lzf.mutldatasource.mapper.user;
 
-import p.lzf.quickexcel.model.User;
+import p.lzf.mutldatasource.model.User;
 
 import java.util.List;
 

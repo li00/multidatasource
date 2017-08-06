@@ -1,4 +1,4 @@
-package p.lzf.quickexcel.model;
+package p.lzf.mutldatasource.model;
 
 /**
  * Created by lzf on 2017/8/6.

@@ -1,4 +1,4 @@
-package p.lzf.quickexcel.model;
+package p.lzf.mutldatasource.model;
 
 
 /**

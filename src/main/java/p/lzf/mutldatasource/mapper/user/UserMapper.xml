@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="p.lzf.quickexcel.mapper.user.UserMapper">
+<mapper namespace="p.lzf.mutldatasource.mapper.user.UserMapper">
     <!-- 查询所有用户
     resultType如果设置了别名，不区分大小写
     -->

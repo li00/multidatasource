@@ -9,5 +9,5 @@
     <!--开启spring注解-->
     <context:annotation-config/>
     <!--扫描spring注解包-->
-    <context:component-scan base-package="p.lzf.quickexcel.service"/>
+    <context:component-scan base-package="p.lzf.mutldatasource.service"/>
 </beans>

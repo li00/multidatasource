@@ -1,13 +1,13 @@
-package p.lzf.quickexcel.controller;
+package p.lzf.mutldatasource.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import p.lzf.quickexcel.model.Employee;
-import p.lzf.quickexcel.model.User;
-import p.lzf.quickexcel.service.IEmployeeService;
-import p.lzf.quickexcel.service.IUserService;
+import p.lzf.mutldatasource.model.Employee;
+import p.lzf.mutldatasource.model.User;
+import p.lzf.mutldatasource.service.IEmployeeService;
+import p.lzf.mutldatasource.service.IUserService;
 
 import javax.annotation.Resource;
 import java.util.List;

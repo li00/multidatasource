@@ -35,14 +35,14 @@
         <!-- 加载mybatis配置文件-->
         <property name="configLocation" value="classpath:mybatis-config.xml" />
         <!-- 给指定包下所有的类取类型别名-->
-        <property name="typeAliasesPackage" value="p.lzf.quickexcel.model" />
+        <property name="typeAliasesPackage" value="p.lzf.mutldatasource.model" />
     </bean>
     <!--扫描Mapper接口-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!--多数据源一定要加上这行-->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory2"/>
         <!-- 基于包的扫描-->
-        <property name="basePackage" value="p.lzf.quickexcel.mapper.user" />
+        <property name="basePackage" value="p.lzf.mutldatasource.mapper.user" />
 
     </bean>
     <!-- Spring事务管理是通过AOP来完成的-->
@@ -52,7 +52,7 @@
     <!-- 定义切面-->
     <aop:config>
         <!-- 定义切点-->
-        <aop:pointcut id="allMethods" expression="execution(* p.lzf.quickexcel.service.*.*(..))"/>
+        <aop:pointcut id="allMethods" expression="execution(* p.lzf.mutldatasource.service.*.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="allMethods" />
     </aop:config>
     <!-- 配置声明式事务-->

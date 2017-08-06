@@ -1,8 +1,8 @@
-package p.lzf.quickexcel.service;
+package p.lzf.mutldatasource.service;
 
 import org.springframework.stereotype.Service;
-import p.lzf.quickexcel.mapper.user.UserMapper;
-import p.lzf.quickexcel.model.User;
+import p.lzf.mutldatasource.mapper.user.UserMapper;
+import p.lzf.mutldatasource.model.User;
 
 import javax.annotation.Resource;
 import java.util.List;
